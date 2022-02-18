@@ -1,0 +1,46 @@
+/* add your CSS here */
+
+*,*::after,*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 18px;
+    line-height: 1.2;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#container {
+    border: 1px solid #ccc;
+    width: 35%;
+    margin: 10px auto;
+    padding: 20px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 5px 0 rgba(0,0,0,.23);
+}
+
+#container h1 {
+    margin: 10px 0;
+}
+#container img {
+    width: 100%;
+}
+#card{
+    border: 1px solid #ccc;
+    padding: 10px 20px;   
+    margin: 10px 0; 
+}
+.animal-info p:first-of-type {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+#card #facts {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+#facts li span {
+    font-weight: bold;
+}
